@@ -10,11 +10,11 @@
 
 Trainig range cell count is 10.
 
-Trainig dopler cell count is 8.
+Trainig doppler cell count is 8.
 
 Guard range cell count is 4.
 
-Guard dopler cell count is 4.
+Guard doppler cell count is 4.
 
 Offset is 10.
 
