@@ -9,7 +9,16 @@
 -   If the CUT level > threshold assign it a value of 1, else equate it to 0.
 
 Trainig range cell count is 10.
+
 Trainig dopler cell count is 8.
+
 Guard range cell count is 4.
+
 Guard dopler cell count is 4.
+
 Offset is 10.
+
+
+The process above will generate a thresholded block, which is smaller than the Range Doppler Map as the CUTs cannot be located at the edges of the matrix due to the presence of Target and Guard cells. Hence, those cells will not be thresholded.
+
+To keep the map size same as it was before CFAR, equate all the non-thresholded cells to 0.
